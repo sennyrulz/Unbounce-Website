@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CFC7BB;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+
+}
+
+.Nav{
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 35px;
+    margin: -15px 0 0 0;
+}
+
+.Nav button{
+    height: 20px;
+    background-color: #000000;
+    color: white;
+    border-radius: 18px;
+    border: none;
+    width: 120px;
+    font-size: 13px;
+    margin: 23px 0 0 0;
+}
+
+.Hero{
+    background: url(images/Image\ 19-11-2024\ at\ 16.22.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 150px 0 0 0;
+}
+
+.Hero h3{
+    margin: 0 0 0 45rem;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.Hero h6{
+    margin: 10px 0 0 27rem;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Hero button{
+    height: 30px;
+    background-color: #000000;
+    color: white;
+    border-radius: 18px;
+    border: none;
+    width: 130px;
+    font-size: 13px;
+    margin: 22px 0 0 54rem;
+}
+
+.brands{
+    background-color: #FDA757;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: -1px 0 0 0;
+    padding: 20px 0 0 0;
+}
+
+.brands img{
+    margin: 12px 0 12px 0;
+    align-items: center;
+}
+
+.Buzzfeed{
+    padding: 10px 0 0 0;
+}
+
+.works{
+    margin: 100px 0 0 150px;
+    height: 400px;
+}
+
+.works-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px 0px 50px -120px;
+    text-align: center;
+}
+
+.works-content img{
+    height: 100px;
+    margin: 0 0 0 -10px;
+}
+
+.works-content h5{
+    font-size: 18px;
+}
+
+.works-content h6{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0px 0 0 0;
+}
+
+.approachContainer{
+    background-color: #FCD56D;
+    height: 600px;
+    display: flex;
+    margin: 5rem 0 0 0;
+}
+
+.CatLover{
+    height: 300px;
+    margin: 50px 50px 30px 60px;
+}
+
+.approach{
+    margin: 80px 0 0 0;
+    justify-content: space-evenly;
+}
+
+.approach h5{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.approach h2{
+    font-size: 40px;
+    margin: 12px 0 0 0;
+}
+
+.approach h6{
+    font-size: 18px;
+    font-weight:100;
+    margin: 12px 0 0 0;
+    text-align: justify;
+}
+
+.approach button{
+    height: 40px;
+    width: 150px;
+    margin: 30px 0 0 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000000;
+    color: white;
+}
+
+.freshKills{
+    background: url(images/istockphoto-1736182660-612x612.jpg);
+    height: 900px;
+    background-size: 100%;
+    justify-items: center;
+    margin: -0.1rem 0 0 0;
+    padding: 20px 0 0 0;}
+
+.freshKills h5{
+    margin: 100px 0 0 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.freshKills h2{
+    margin: 1px 0 0 0;
+    font-size: 100px;
+    font-weight: 300;
+}
+
+.freshKillsContent{
+    background-color: white;
+    height: 220px;
+    width: 200px;
+    margin: 120px 0 0 800px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.freshKillsContent h6{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.freshKillsContent button{
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000000;
+    color: white;
+}
+
+
+.DryKills{
+    background: url(images/360_F_898297700_Zn8Hu8zNnX5Cj9TXnwLDaFi3TdgH3SJY.jpg);
+    height: 1080px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    justify-items: center;
+    margin: -0.1rem 0 0 0;
+    padding: 10px 0 0 0;}
+
+.DryKills h5{
+    margin: 50px 0 0 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.DryKills h2{
+    margin: 1px 0 0 0;
+    font-size: 100px;
+    font-weight: 300;
+}
+
+.DryKillsContent{
+    background-color: white;
+    height: 220px;
+    width: 200px;
+    margin: 60px 0 0 -800px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.DryKillsContent h6{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.DryKillsContent button{
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000000;
+    color: white;
+}
